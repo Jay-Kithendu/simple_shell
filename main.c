@@ -18,7 +18,7 @@ int main(int argc, char **argv, char **environ)
 
 	tokens = find_path(environ);
 
-	signal(SIGNIT, SIG_IGN);
+	signal(SIGINT, SIG_IGN);
 	while (1)
 	{
 		line = read_line();
