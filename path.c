@@ -6,7 +6,7 @@
  * Return: path in tokens
  */
 
-char **find_path(char ** environ)
+char **find_path(char **environ)
 {
 	char *get_path, **tokens, *delim;
 
