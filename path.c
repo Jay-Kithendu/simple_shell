@@ -4,6 +4,7 @@
  * _path - search for PATH in the env
  * @args: arguments saved on getline
  * @argv: arguments passed
+ * @stad_exit: ...
  * @env: environment variable
  * Return: 0 success
  */

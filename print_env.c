@@ -3,19 +3,13 @@
 /**
  * printenv - prints the environment
  * @env: environment variable
- * @argv: arguments passed
+ * @stad_exit: ...
  * Return: Always 0 in success. Otherwise 1.
  */
 int printenv(char **env, int *stad_exit)
 {
 	unsigned int i;
 
-	/**if (env == NULL || env[0] == NULL)
-		return (1);
-	if (argv[1] != NULL)
-	{
-		return (1);
-		}*/
 	for (i = 0; env[i] != NULL; i++)
 	{
 		print_string(env[i]);
