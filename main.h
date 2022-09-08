@@ -1,12 +1,3 @@
-#ifndef MAIN_H
-#define MAIN_H
-
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdarg.h>
-#include <string.h>
-#include <unistd.h>
-
 #ifndef SIMPLE_SHELL
 
 #define SIMPLE_SHELL
@@ -52,7 +43,5 @@ char *_strdup(char *str);
 char *if_exists(char **environ);
 
 extern char **environ;
-
-int _add(int a, int b);
 
 #endif
